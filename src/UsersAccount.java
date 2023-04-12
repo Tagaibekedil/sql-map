@@ -3,7 +3,6 @@ public class UsersAccount {
     private String email;
     private String accountNumber;
     private String currency;
-
     public String getLogin() {
         return login;
     }
