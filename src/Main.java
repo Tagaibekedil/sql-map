@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-
     static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     static final String USER = "postgres";
     static final String PASS = "postgres";
