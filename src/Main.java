@@ -19,8 +19,6 @@ public class Main {
         UsersAccount usersAccaunt = new UsersAccount();
         List<String> list = new ArrayList<>(10);
         Map<String,String>map=new HashMap<>();
-
-
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(QUERY)) {
